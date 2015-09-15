@@ -1962,7 +1962,7 @@ function initialize() {
         disableDefaultUI: true,
         disableDoubleClickZoom: false,
         scrollwheel: true,
-        mapTypeId: google.maps.MapTypeId.HYBRID,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: myLatlng
     };
 
