@@ -1957,11 +1957,12 @@ function initialize() {
     var myLatlng = new google.maps.LatLng(map_lon, map_lat);
 
     var mapOptions = {
-        zoom: 8,
-        draggable: false,
+        zoom: 15,
+        draggable: true,
         disableDefaultUI: true,
-        disableDoubleClickZoom: true,
-        scrollwheel: false,
+        disableDoubleClickZoom: false,
+        scrollwheel: true,
+        mapTypeId: google.maps.MapTypeId.HYBRID,
         center: myLatlng
     };
 

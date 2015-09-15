@@ -53,11 +53,15 @@
  */
 .owl-carousel {
   display: none;
-  width: 100%;
+  width: 60%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
   z-index: 1;
+      margin-top: 7cm;
+    margin-bottom: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 .owl-carousel .owl-stage {
   position: relative;

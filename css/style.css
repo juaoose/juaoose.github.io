@@ -802,6 +802,14 @@ body.load footer {
   z-index: 0;
 }
 
+.center_vid {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline
+}
+
 body.map-bg .map-canvas {
   opacity: 1;
   z-index: 0;
